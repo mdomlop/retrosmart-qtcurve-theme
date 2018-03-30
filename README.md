@@ -1,4 +1,4 @@
-![preview](https://github.com/mdomlop/retrosmart-kvantum-theme/blob/master/preview.png "Retrosmart QtCurve theme")
+![preview](https://github.com/mdomlop/retrosmart-qtcurve-theme/blob/master/preview.png "Retrosmart QtCurve theme")
 
 Retrosmart Kvantum theme
 =========================
