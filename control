@@ -1,7 +1,7 @@
 Source: retrosmart-qtcurve-theme
 Section: main
 Priority: optional
-Maintainer: Manuel Domínguez López <mdomlop@gmail.com>
+Maintainer: Manuel Domínguez López <@mail@>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://github.com/mdomlop/retrosmart-qtcurve-theme

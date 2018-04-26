@@ -23,5 +23,5 @@ Alternatively you can run:
 or (to use Debian package manager):
 
         make debian_pkg
-        dpkg -i retrosmart-qtcurve-them_1_all.deb
+        dpkg -i retrosmart-qtcurve-them_@version@_all.deb
 

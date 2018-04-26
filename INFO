@@ -1,8 +1,8 @@
 PROGRAM_NAME=Retrosmart QtCurve theme
 EXECUTABLE_NAME=retrosmart-qtcurve-theme
 DESCRIPTION=Retrosmart theme for QtCurve
-VERSION=0.1
+VERSION=1
 AUTHOR=Manuel Domínguez López
-MAIL=mdomlop@gmail.com
+MAIL=zqbzybc@tznvy.pbz
 SOURCE=http://github.com/mdomlop/retrosmart-qtcurve-theme
-LICENSE=GPLv3+
+LICENSE=GPL-3+
