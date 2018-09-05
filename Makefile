@@ -14,7 +14,7 @@ default: README.md
 	@echo
 	@echo Now you can make install or make debian
 
-version_update: clean readme.in changelog README.md changelog.update changelog.new
+version_update: clean README.md changelog.new
 
 changelog.update:
 	@echo "$(EXECUTABLE_NAME) ($(VERSION)) unstable; urgency=medium" > changelog.update
@@ -62,7 +62,7 @@ README.md: readme.in
 	sed s/@version@/$(VERSION)/g $^ > $@
 
 clean: debian_clean
-	rm -rf version_update changelog.* *.xz *.gz *.tgz *.deb
+	rm -rf version_update changelog.* *.xz *.gz *.tgz *.deb pkg
 
 purge: clean
 	rm README.md
@@ -82,7 +82,6 @@ debian_pkg: debian/compat debian/rules debian/changelog debian/control debian/RE
 install_docs: $(DOCS)
 	install -dm 755 $(DESTDIR)$(PREFIX)/share/doc/$(EXECUTABLE_NAME)
 	install -Dm 644 $(DOCS) $(DESTDIR)$(PREFIX)/share/doc/$(EXECUTABLE_NAME)
-	
 
 install_executables: src/Retrosmart.qtcurve
 	install -dm 755 $(DESTDIR)/$(PREFIX)/share/QtCurve
