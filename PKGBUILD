@@ -11,12 +11,18 @@ pkgdesc="Retrosmart theme for QtCurve."
 url="https://github.com/mdomlop/$pkgname.git"
 source=()
 license=('GPL3')
-optdepends=('retrosmart-icon-theme: The corresponding icon theme'
+optdepends=('qtcurve-qt4: Qt4'
+            'qtcurve-qt5: Qt5'
+            'qtcurve-kde: Qt5 (with KDE integration)'
+            'qtcurve-gtk2: Gtk2'
+            'retrosmart-aurorae-themes: The corresponding Aurorae themes'
+            'retrosmart-icon-theme: The corresponding icon theme'
             'retrosmart-gtk-themes: The corresponding GTK themes'
             'retrosmart-openbox-themes: The corresponding Openbox themes'
             'retrosmart-wallpapers: The corresponding backgrounds project'
             'retrosmart-x11-cursors: The corresponding X11 cursor theme'
-            'retrosmart-xfwm4-themes: The corresponding XFwm4 themes')
+            'retrosmart-xfwm4-themes: The corresponding XFwm4 themes'
+            'retrosmart-kvantum-theme: The corresponding theme for Kvantum')
 arch=('any')
 group=('retrosmart')
 
